@@ -1,0 +1,81 @@
+.pane{
+    -fx-background-color: dimgrey;
+}
+
+#button-w{
+    -fx-background-radius: 4em; 
+    -fx-font-weight: bold;
+    -fx-min-width: 40px; 
+    -fx-min-height: 40px; 
+    -fx-border-radius: 4em;
+    -fx-border-color:black;
+    -fx-border-width: 2 2 2 2;    
+    -fx-background-color:   white;
+    -fx-background-insets: 0px; 
+    -fx-padding: 0px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#button-o{
+    -fx-background-radius: 3em;  
+    -fx-font-weight: bold;
+    -fx-min-width: 40px; 
+    -fx-min-height: 40px; 
+    -fx-background-color:  DarkOrange;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-color:black;
+    -fx-border-radius: 4em;
+    -fx-background-insets: 0px; 
+    -fx-padding: 0px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#button-0{
+    -fx-background-radius: 4em; 
+    -fx-font-weight: bold;
+    -fx-min-width: 85px; 
+    -fx-min-height: 40px; 
+    -fx-border-radius: 4em;
+    -fx-border-color:black;
+    -fx-border-width: 2 2 2 2;
+    -fx-background-color:  white;
+    -fx-background-insets: 0px; 
+    -fx-padding: 0px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#button-c{
+    -fx-background-radius: 4em; 
+    -fx-font-weight: bold;
+    -fx-min-width: 85px; 
+    -fx-min-height: 40px; 
+    -fx-border-radius: 4em;
+    -fx-background-color:  DarkOrange;
+    -fx-border-color:black;
+    -fx-border-width: 2 2 2 2;        
+    -fx-background-insets: 0px; 
+    -fx-padding: 0px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}      
+#button-c:hover {
+    -fx-background-color: linear-gradient(#bfbfbf, #e6e6e6);
+}
+#button-o:hover {
+    -fx-background-color: linear-gradient(#bfbfbf, #e6e6e6);
+}
+#button-0:hover {
+    -fx-background-color: linear-gradient(#bfbfbf, #e6e6e6);
+}
+#button-w:hover {
+    -fx-background-color: linear-gradient(#bfbfbf, #e6e6e6);
+}
+.text-field{
+   -fx-font-family: "Quicksand";
+   -fx-font-size: 18;
+   -fx-font-weight: bold;
+   -fx-min-width: 100px; 
+   -fx-alignment: right;
+   -fx-border-color: black;
+   -fx-background-color: -fx-text-box-border, white;
+   -fx-border-width: 2 2 2 2;
+   -fx-border-radius: 4em;
+   -fx-background-radius: 4em;
+   -fx-text-fill: black;
+}
